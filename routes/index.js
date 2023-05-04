@@ -1,12 +1,15 @@
 // route to return index.html file
-const express = require('express');
+const route = require('express').Router();
 
 const notesRouter = require('./api/notes');
 const initialRouter = require('./api/index');
-
-const app = express();
  
-app.use('/notes', notesRouter);
-app.use('/index', initialRouter);
+route.get('/', (req,res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'));
+});
 
-module.exports = app;
+route.get('/', (req,res) => {
+    res.sendFile(path.hoin(__dirname, '../public/notes.html'));
+});
+
+module.exports = route;
