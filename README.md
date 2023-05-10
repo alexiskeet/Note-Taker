@@ -32,7 +32,7 @@ MIT
 
 ## Links
 - [GitHub-Repo](https://github.com/alexiskeet/Note-Taker.git)
-- [Live-Site](N/A)
+- [Live-Site](https://alexiskeet.github.io/Note-Taker/)
 
 
 ## Application
