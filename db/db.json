@@ -12,5 +12,15 @@
         "title": "asdfasdf",
         "text": "asdf",
         "id": "f3bfafcd-1074-4c6c-99f4-b3082c1662ee"
+    },
+    {
+        "title": "Notes",
+        "text": "Write notes here",
+        "id": "4fac6310-f8e8-4bf6-956e-3949e2ddba38"
+    },
+    {
+        "title": "New Note",
+        "text": "Note text here",
+        "id": "dcecf7fe-9095-465f-95e2-c7070c038a63"
     }
 ]
